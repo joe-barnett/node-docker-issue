@@ -1,3 +1,6 @@
 # Readme
 
-Run `docker build .` and see that the build never completes.
+This is a repo to demonstrate an issue with the node alpine docker image.
+The issue has been observed on an intel macbook pro, running macOS Big Sur 11.6, and Docker version 20.10.8, build 3967b7d.
+
+To see the problem, run `docker build .`. The build never completes.
